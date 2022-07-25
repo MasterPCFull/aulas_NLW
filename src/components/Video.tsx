@@ -1,4 +1,4 @@
-import { DiscordLogo } from "phosphor-react";
+import { CaretRight, DiscordLogo, FileArrowDown } from "phosphor-react";
 
 export function Video() {
     return (
@@ -43,8 +43,48 @@ export function Video() {
                         </div>
                     </div>
 
-                    <div className="">
+                    <div className="gap-8 mt-20 grid grid-cols-2">
+                        <a href="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 houver:bg-gray-600 transition-colors">
+                        <div className="bg-green-700 h-full p-6 flex items-center">
+                            <FileArrowDown size={40}/>    
+                        </div> 
+                        <div className="py-6 leading-relaxed">
+                            <strong className="text-21">Material complementar</strong>
+                            <p className="text-sm text-gray-200 mt-2"></p>
+                        </div>
+                        <div className="h-full p-6 flex items-center">
+                            <CaretRight size={24}/>
+                        </div>   
+                        </a>
 
+                        <a href="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 houver:bg-gray-600 transition-colors">
+                        <div className="bg-green-700 h-full p-6 flex items-center">
+                            <FileArrowDown size={40}/>    
+                        </div> 
+                        <div className="py-6 leading-relaxed">
+                            <strong className="text-21">Material complementar</strong>
+                            <p className="text-sm text-gray-200 mt-2">
+                                Acesse o Material complementar
+                            </p>
+                            
+                        </div>
+                        <div className="h-full p-6 flex items-center">
+                            <CaretRight size={24}/>
+                        </div>   
+                        </a> <a href="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 houver:bg-gray-600 transition-colors">
+                        <div className="bg-green-700 h-full p-6 flex items-center">
+                            <FileArrowDown size={40}/>    
+                        </div> 
+                        <div className="py-6 leading-relaxed">
+                            <strong className="text-21">Material complementar</strong>
+                            <p className="text-sm text-gray-200 mt-2">
+                                Imagem do progeto
+                            </p>
+                        </div>
+                        <div className="h-full p-6 flex items-center">
+                            <CaretRight size={24}/>
+                        </div>   
+                        </a>
                     </div>
                 </div>
             </div>
